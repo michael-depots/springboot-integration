@@ -1,15 +1,18 @@
-package demo.michael.synopsis.controller;
+package demo.michael.synopsis.unsafe;
 
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @className: UnsafeThreadController
+ * @className: UnsafeThread
  * @description: 线程不安全操作示例
  * 线程上线文切换，导致对数据的获取不太准确，因为计算值 <> 1000
+ * 解决方式:
+ * 1. 使用 synchronized 对方法加锁，是方法具有原子性
+ * 2.
  * @author: michael
  * @date: 12/19/21
  **/
-public class UnsafeThreadController {
+public class UnsafeThread {
 
     private static int num = 0;
 
@@ -19,7 +22,7 @@ public class UnsafeThreadController {
      * @description: 每次调用对num进行++操作
      * @return: void
      */
-    public static void inCreate() {
+    public static synchronized void inCreate() {
         num++;
     }
 
