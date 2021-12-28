@@ -3,7 +3,7 @@ package demo.michael.synopsis.communication;
 /**
  * @className: ThreadContextSwitchDemo
  * @description: 在多线程环境下，如果一个线程的执行，依赖于另外一个线程的某种状态的改变
- * 问题: 线程的执行时间不可控，CPU分配时间片的时候会比较耗费资源
+ * 问题: 线程的执行时间不可控，CPU分配时间片的  时候会比较耗费资源
  * 解决: 参考 ThreadWaitAndNotifyDemo
  * @author: charles
  * @date: 12/28/21
