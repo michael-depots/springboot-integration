@@ -1,4 +1,4 @@
-package demo.michael.synopsis.productConsumer;
+package demo.michael.synopsis.communication.productConsumer;
 
 /**
  * @className: Main
