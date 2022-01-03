@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @className: CountDownLatchDemo
- * @description: CountDownLatchDemo 使用
+ * @description:  CountDownLatch 一般用于某个线程等待若干个其它线程执行完成之后，它才执行；不可以重复使用
  * @author: charles
  * @date: 1/3/22
  **/
